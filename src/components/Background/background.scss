@@ -1,0 +1,71 @@
+.background {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+
+    .row {
+        width: 100%;
+        height: auto;
+        flex: 1;
+        display: flex;
+        gap: 10px;
+        position: relative;
+        overflow: hidden;
+
+        button {
+            position: absolute;
+            min-width: 150px;
+            border-radius: 10px;
+            width: fit-content;
+            height: 50px;
+            padding: 10px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 70%;
+            margin: auto;
+            border: none;
+            background-color: #1dbf73;
+            color: white;
+            cursor: pointer;
+            font-weight: 500;
+
+            &:hover {
+                background-color: #339265;
+            }
+
+        }
+
+        span {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            padding: 0;
+            top: 30%;
+            bottom: 40%;
+            left: 11%;
+            right: 70%;
+            margin: auto;
+            font-size: 50px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            object-fit: contain;
+
+
+        }
+
+    }
+}
